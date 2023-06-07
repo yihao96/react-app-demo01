@@ -1,3 +1,35 @@
+# A demo product page for an e-commerce website
+
+This is a demo product page module with cart viewing capability, products sorting and search, and simple login function.
+
+This demo application is made possible using ReactJS with TypeScript.
+The following are some of the packages used:
+
+- [@mui/material](https://github.com/mui/material-ui)
+- [@mui/icons-material](https://github.com/mui/material-ui)
+- [axios](https://github.com/axios/axios)
+- [js-cookie](https://github.com/js-cookie/js-cookie)
+- [react-router-dom](https://github.com/remix-run/react-router)
+
+The application is built solely for mobile view only.
+
+## App Screenshots
+
+<p align="center">
+  <img src="./screenshots/01.png" alt="Simple login page" height="450" />
+  <img src="./screenshots/02.png" alt="Products listing" height="450" />
+  <img src="./screenshots/03.png" alt="Products listing with pagination" height="450" />
+  <img src="./screenshots/04.png" alt="Product sorting menu" height="450" />
+</p>
+
+<p align="center">
+  <img src="./screenshots/05.png" alt="Product detail view 1" height="450" />
+  <img src="./screenshots/06.png" alt="Product detail view 2" height="450" />
+  <img src="./screenshots/07.png" alt="Cart view" height="450" />
+</p>
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

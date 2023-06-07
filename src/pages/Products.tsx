@@ -24,6 +24,7 @@ import {
   Rating,
   Select,
   SelectChangeEvent,
+  Skeleton,
   Snackbar,
   TextField,
   Tooltip,
@@ -105,7 +106,7 @@ const Products = (): JSX.Element => {
       navigate("/login");
     }
 
-    handleGetProducts();
+    // handleGetProducts();
   }, [navigate, token]);
 
   const handleGetProducts = (skip: number = 0) => {
@@ -378,7 +379,29 @@ const Products = (): JSX.Element => {
               </Grid>
             ))
           ) : (
-            <Typography mx={2}>nothing to see here</Typography>
+            <Grid item key={1} xs={6}>
+              <Card>
+                <Skeleton variant="rectangular" height={100} />
+                <CardContent>
+                  <Skeleton variant="text" sx={{ fontSize: 14 }} />
+                  <Skeleton variant="text" sx={{ fontSize: 16 }} />
+                  <Skeleton
+                    variant="rectangular"
+                    sx={{ width: 90, height: 18 }}
+                  />
+                </CardContent>
+                <CardActions sx={{ justifyContent: "space-between" }}>
+                  <Skeleton
+                    variant="rectangular"
+                    sx={{ width: 75, height: 30 }}
+                  />
+                  <Skeleton
+                    variant="rectangular"
+                    sx={{ width: 30, height: 30 }}
+                  />
+                </CardActions>
+              </Card>
+            </Grid>
           )}
         </Grid>
         <Pagination
