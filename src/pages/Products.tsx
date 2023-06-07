@@ -87,7 +87,6 @@ const Products = (): JSX.Element => {
   const navigate = useNavigate();
 
   const [products, setProducts] = useState<Product[]>();
-  const [productsDisc, setProductsDisc] = useState<Product[]>();
   const [totalProducts, setTotalProducts] = useState(0);
   const [page, setPage] = useState(1);
 
@@ -106,7 +105,7 @@ const Products = (): JSX.Element => {
       navigate("/login");
     }
 
-    // handleGetProducts();
+    handleGetProducts();
   }, [navigate, token]);
 
   const handleGetProducts = (skip: number = 0) => {

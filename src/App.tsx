@@ -1,10 +1,8 @@
-import React, { useContext, useEffect } from "react";
+import React from "react";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import { Login, PageNotFound, Products, Profile, ShoppingCart } from "./pages";
-import { Context } from "./context/Context";
-import Cookies from "js-cookie";
 
 function App() {
   function fizzyBuzzing(n: number) {
@@ -23,8 +21,6 @@ function App() {
       }
     }
   }
-
-  const { token, setToken } = useContext(Context);
 
   return (
     <BrowserRouter>
