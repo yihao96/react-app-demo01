@@ -19,12 +19,15 @@ The application is built solely for mobile view only.
   <img src="./screenshots/01.png" alt="Simple login page" height="450" />
   <img src="./screenshots/02.png" alt="Products listing" height="450" />
   <img src="./screenshots/03.png" alt="Products listing with pagination" height="450" />
-  <img src="./screenshots/04.png" alt="Product sorting menu" height="450" />
 </p>
 
 <p align="center">
+  <img src="./screenshots/04.png" alt="Product sorting menu" height="450" />
   <img src="./screenshots/05.png" alt="Product detail view 1" height="450" />
   <img src="./screenshots/06.png" alt="Product detail view 2" height="450" />
+</p>
+
+<p align="center">
   <img src="./screenshots/07.png" alt="Cart view" height="450" />
 </p>
 
